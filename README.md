@@ -1,8 +1,8 @@
 # 👂 React Callbag Listener
 
 [![NPM Downloads](https://img.shields.io/npm/dm/react-callbag-listener.svg?style=flat)](https://www.npmjs.com/package/react-callbag-listener)
-[![Build Status](https://travis-ci.org/callbag-listener/react-callbag-listener.svg?branch=master)](https://travis-ci.org/callbag-listener/react-callbag-listener)
-[![codecov.io](https://codecov.io/gh/callbag-listener/react-callbag-listener/branch/master/graph/badge.svg)](https://codecov.io/gh/callbag-listener/react-callbag-listener)
+[![Build Status](https://travis-ci.org/erikras/react-callbag-listener.svg?branch=master)](https://travis-ci.org/erikras/react-callbag-listener)
+[![codecov.io](https://codecov.io/gh/erikras/react-callbag-listener/branch/master/graph/badge.svg)](https://codecov.io/gh/erikras/react-callbag-listener)
 
 ---
 
