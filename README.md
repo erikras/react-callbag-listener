@@ -12,9 +12,7 @@ So you've seen the light and accepted [Callbags](https://github.com/callbag/call
 
 ---
 
-<img src="demo.gif" align="right"/>
-
-Demo!
+## Demo 👀
 
 [![Edit 👂 React Callbag Listener Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/4y2z5j6v7)
 
