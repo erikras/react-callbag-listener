@@ -1,7 +1,8 @@
 {
   "name": "react-callbag-listener",
   "version": "1.0.0",
-  "description": "👂 A React render-prop component that listens to values emitted by callbags",
+  "description":
+    "👂 A React render-prop component that listens to values emitted by callbags",
   "main": "dist/react-callbag-listener.cjs.js",
   "jsnext:main": "dist/react-callbag-listener.es.js",
   "module": "dist/react-callbag-listener.es.js",
@@ -27,6 +28,7 @@
     "babel-eslint": "^8.2.3",
     "babel-jest": "^22.4.3",
     "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
@@ -43,6 +45,7 @@
     "lint-staged": "^7.0.4",
     "nps": "^5.9.0",
     "nps-utils": "^1.5.0",
+    "prettier": "^1.12.1",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
