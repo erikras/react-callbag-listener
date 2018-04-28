@@ -1,6 +1,6 @@
 {
   "name": "react-callbag-listener",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description":
     "👂 A React render-prop component that listens to values emitted by callbags",
   "main": "dist/react-callbag-listener.cjs.js",
