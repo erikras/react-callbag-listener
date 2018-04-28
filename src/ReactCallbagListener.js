@@ -42,6 +42,17 @@ export default class ReactCallbagProps extends React.Component {
         }
       }
     })
+    Object.keys(prevProps).forEach(key => {
+      const newCallbag = this.props[key]
+      const oldCallbag = prevProps[key]
+      if (oldCallbag && !newCallbag) {
+        const talkback = this.talkbacks[key]
+        if (talkback) {
+          talkback(2)
+        }
+        this.unsubscribe(key, oldCallbag)
+      }
+    })
   }
 
   componentWillUnmount() {
