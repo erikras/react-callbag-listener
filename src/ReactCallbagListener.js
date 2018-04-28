@@ -36,9 +36,7 @@ export default class ReactCallbagProps extends React.Component {
             talkback(2)
           }
           this.unsubscribe(key, oldCallbag)
-          if (newCallbag) {
-            this.subscribe(key, newCallbag)
-          }
+          this.subscribe(key, newCallbag)
         }
       }
     })
@@ -46,10 +44,7 @@ export default class ReactCallbagProps extends React.Component {
       const newCallbag = this.props[key]
       const oldCallbag = prevProps[key]
       if (oldCallbag && !newCallbag) {
-        const talkback = this.talkbacks[key]
-        if (talkback) {
-          talkback(2)
-        }
+        this.talkbacks[key](2)
         this.unsubscribe(key, oldCallbag)
       }
     })
